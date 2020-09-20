@@ -12,4 +12,4 @@ while true:
       255 if (i + offset) == 2 else 0,
     )
   time.sleep(500)
-  offset++
+  offset = offset + 1
