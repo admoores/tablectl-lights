@@ -12,4 +12,4 @@ while True:
     pixels[(i + 2) % 36] = (255, 0, 255);
     pixels[(i + 3) % 36] = (255, 0, 255);
     pixels[(i + 4) % 36] = (255, 0, 255);
-  time.sleep(.25)
+    time.sleep(.1)
