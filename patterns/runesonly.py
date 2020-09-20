@@ -2,9 +2,17 @@ import board
 import neopixel
 
 pixels = neopixel.NeoPixel(board.D18, 36)
-color = (255, 0, 255)
 
+runes = [
+  0,
+  1,
+  16,
+  17,
+  18,
+  19,
+  34,
+  35
+]
 
-pixels[1:2] = color
-pixels[16:19] = color
-pixels[34:35] = color
+for idx in runes:
+  pixels[idx] = (255, 0, 255)
