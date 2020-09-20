@@ -20,5 +20,7 @@ while True:
     color = (0, 255, 0)
   elif (color == (0, 255, 0)):
     color = (255, 255, 0)
+  elif (color == (255, 255, 0)):
+    color = (255, 0, 0)
   else:
     color = (255, 0, 255)
