@@ -7,9 +7,9 @@ offset = 0
 while true:
   for i in range(36):
     pixels[i] = (
-      ((i + offset) % 3) == 0 ? 255 : 0,
-      ((i + offset) % 3) == 1 ? 255 : 0,
-      ((i + offset) % 3) == 2 ? 255 : 0,
+      255 if (i + offset) == 0 else 0,
+      255 if (i + offset) == 1 else 0,
+      255 if (i + offset) == 2 else 0,
     )
   time.sleep(500)
   offset++
