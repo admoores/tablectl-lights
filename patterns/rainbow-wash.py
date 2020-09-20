@@ -12,5 +12,5 @@ while True:
       255 if ((i + offset) % 3) == 1 else 0,
       255 if ((i + offset) % 3) == 2 else 0,
     )
-  time.sleep(500)
+  time.sleep(.5)
   offset = offset + 1
